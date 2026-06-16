@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.encabezado {
+  margin-bottom: 20px;
+}
+
+.etiqueta,
+.descripcion,
+.categoria,
+.autor {
+  color: #555;
+}
+
+.muro {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-eliminar {
+  background: #dc2626;
+}
+
+.error {
+  padding: 10px;
+  background: #ffe0e0;
+  color: #900;
+}
+
+.cabecera-lista {
+  margin-bottom: 15px;
+}
+
+.buscador {
+  margin-top: 10px;
+}
+
+.lista-posts {
+  display: grid;
+  gap: 12px;
+}
+
+.post {
+  padding: 12px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+
+.post h4 {
+  margin: 5px 0;
+}
+
+.post p {
+  line-height: 1.4;
+}
+
+hr {
+  margin: 20px 0;
+}
